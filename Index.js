@@ -15,7 +15,7 @@ function eliminarDuplicados(arreglo) {
 }
 
 function factorial(numero) {
-    if (numero < 0) return -1; // El factorial de un número negativo no está definido
+    if (numero < 0) return -1; 
     if (numero === 0) return 1;
     return numero * factorial(numero - 1);
 }
@@ -111,7 +111,7 @@ function mostrarEncontrarMaximo() {
   
       if (!isNaN(numero)) {
           arreglo.push(numero);
-          numeroInput.value = ''; // Limpia el campo de entrada
+          numeroInput.value = ''; 
       } else {
           alert('Por favor, ingrese un número válido.');
       }
@@ -123,6 +123,5 @@ function mostrarEncontrarMaximo() {
       input.value = arregloComoTexto;
   }
   
-  // Ejemplo de uso inicial:
-  // guardarArregloEnInput(); // No es necesario llamar esto aquí, se llamará cuando el usuario haga clic en el botón
+
   
